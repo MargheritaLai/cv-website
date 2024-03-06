@@ -1,50 +1,101 @@
 .amatic-sc-regular {
-    font-family: "Amatic SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.architects-daughter-regular {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 body {
-    font-family: "Amatic SC", sans-serif;
-    background-color: #f0f0f0;
-    margin: 10;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  header {
-    background-color: #219bb1;
-    color: #000000;
-    padding: 0px;
-    text-align: left;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #000000;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: #219bb1;
-    color: #000000;
-    text-align: center;
-    padding: 0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+  font-family: "Handlee", cursive;
+  background-color: #000000;
+  margin: 30;
+  text-align: left;
+  padding: 10px;
+}
+
+header {
+  background-color: #000000;
+  font-size: 23px;
+  color: #b4bec0;
+  padding: 10px;
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #b4bec0;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  color: #b4bec0;
+  font-size: 20px;
+}
+
+footer {
+  font-family: "Handlee", cursive;
+  background-color: #000000;
+  color: #b4bec0;
+  text-align: right;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  font-size: 10px;
+}
+
+.footer1 {
+  font-family: "Handlee", cursive;
+  background-color: #000000;
+  color: #b4bec0;
+  text-align: right;
+  padding: 25px;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  font-size: 10px;
+}
+
+.LinkedIn-icon{
+  border: 1px solid #b4bec0;
+  border-radius: 3px;
+  width: 30px;
+  position: sticky
+}
+
+.GitHub-icon{
+  border: 1px solid #b4bec0;
+  border-radius: 3px;
+  width: 30px;
+}
+
+.myphoto{
+  border-radius: 3px;
+  width: 600px;
+  float: left; 
+  margin-right: 10px;
+}
