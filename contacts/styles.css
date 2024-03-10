@@ -54,17 +54,18 @@ main {
   padding: 20px;
   color: #b4bec0;
   font-size: 20px;
+  margin-bottom: 20%;
 }
 
 footer {
   font-family: "Handlee", cursive;
   background-color: #000000;
   color: #b4bec0;
-  text-align: right;
-  padding: 0px;
+  text-align: center;
+  margin: 0;
   position: fixed;
   bottom: 0;
-  width: 95%;
+  width: 100%;
   font-size: 10px;
 }
 
@@ -73,10 +74,11 @@ footer {
   background-color: #000000;
   color: #b4bec0;
   text-align: right;
-  padding: 25px;
+  padding: 30px;
+  padding-left: 10px;
   position: fixed;
   bottom: 0;
-  width: 90%;
+  width: 95%;
   font-size: 10px;
 }
 
@@ -89,6 +91,6 @@ footer {
 
 .GitHub-icon{
   border: 1px solid #b4bec0;
-  border-radius: 3px;
+  border-radius: 23px;
   width: 30px;
 }
